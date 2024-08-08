@@ -34,7 +34,7 @@ export default function Home() {
           <div className='absolute text-white text-center z-20 w-full'>
             <span className='block'>Since 1969</span>
             <h1 className='pb-10 text-center w-full text-white z-20'>
-              British Women's Group{' '}
+              British Women&apos;s Group{' '}
               <span
                 className='text-red-300 block'
                 style={{ fontSize: 'inherit', fontWeight: 'inherit' }}>
