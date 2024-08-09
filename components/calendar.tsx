@@ -8,6 +8,7 @@ import {
 } from '@heroicons/react/20/solid'
 
 const days = [
+  { date: '2024-07-28', events: [] },
   { date: '2024-07-29', events: [] },
   { date: '2024-07-30', events: [] },
   { date: '2024-07-31', events: [] },
@@ -32,6 +33,36 @@ const days = [
       },
     ],
   },
+  { "date": "2024-08-02", "events": [] },
+  { "date": "2024-08-03", "events": [] },
+  { "date": "2024-08-04", "events": [] },
+  { "date": "2024-08-05", "events": [] },
+  { "date": "2024-08-06", "events": [] },
+  { "date": "2024-08-07", "events": [] },
+  { "date": "2024-08-08", "events": [] },
+  { "date": "2024-08-09", "events": [] },
+  { "date": "2024-08-10", "events": [] },
+  { "date": "2024-08-11", "events": [] },
+  { "date": "2024-08-12", "events": [] },
+  { "date": "2024-08-13", "events": [] },
+  { "date": "2024-08-14", "events": [] },
+  { "date": "2024-08-15", "events": [] },
+  { "date": "2024-08-16", "events": [] },
+  { "date": "2024-08-17", "events": [] },
+  { "date": "2024-08-18", "events": [] },
+  { "date": "2024-08-19", "events": [] },
+  { "date": "2024-08-20", "events": [] },
+  { "date": "2024-08-21", "events": [] },
+  { "date": "2024-08-22", "events": [] },
+  { "date": "2024-08-23", "events": [] },
+  { "date": "2024-08-24", "events": [] },
+  { "date": "2024-08-25", "events": [] },
+  { "date": "2024-08-26", "events": [] },
+  { "date": "2024-08-27", "events": [] },
+  { "date": "2024-08-28", "events": [] },
+  { "date": "2024-08-29", "events": [] },
+  { "date": "2024-08-30", "events": [] },
+  { "date": "2024-08-31", "events": [] }
   // { date: '2021-12-27', events: [] },
   // { date: '2021-12-28', events: [] },
   // { date: '2021-12-29', events: [] },
@@ -254,6 +285,9 @@ export default function Calendar() {
       <div className='shadow ring-1 ring-black ring-opacity-5 lg:flex lg:flex-auto lg:flex-col'>
         <div className='grid grid-cols-7 gap-px border-b border-gray-300 bg-gray-200 text-center text-xs font-semibold leading-6 text-gray-700 lg:flex-none'>
           <div className='bg-white py-2'>
+            S<span className='sr-only sm:not-sr-only'>un</span>
+          </div>
+          <div className='bg-white py-2'>
             M<span className='sr-only sm:not-sr-only'>on</span>
           </div>
           <div className='bg-white py-2'>
@@ -270,9 +304,6 @@ export default function Calendar() {
           </div>
           <div className='bg-white py-2'>
             S<span className='sr-only sm:not-sr-only'>at</span>
-          </div>
-          <div className='bg-white py-2'>
-            S<span className='sr-only sm:not-sr-only'>un</span>
           </div>
         </div>
         <div className='flex bg-gray-200 text-xs leading-6 text-gray-700 lg:flex-auto'>
