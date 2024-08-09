@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '~components/footer'
 import Header from '~components/header'
+import Welfare from '~components/welfare'
 
 const About: NextPage<any> = (props) => {
   return (
@@ -16,6 +17,7 @@ const About: NextPage<any> = (props) => {
         /> */}
       </Head>
       <Header />
+      <Welfare />
       <Footer />
     </>
   )
