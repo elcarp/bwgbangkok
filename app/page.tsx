@@ -67,7 +67,7 @@ export default function Home() {
             </div>
             <div className='mx-auto max-w-7xl px-6 lg:px-8'>
               <div className='mx-auto max-w-2xl lg:mx-0'>
-                <p className='text-lg font-semibold leading-8 tracking-tight text-blue-500'>
+                <p className={`${cedarville.className} text-3xl font-semibold leading-8 tracking-tight text-blue-500`}>
                   Build lasting connections
                 </p>
                 <h1 className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
@@ -102,7 +102,7 @@ export default function Home() {
                   </svg>
                   <figure className='border-l border-blue-500 pl-8'>
                     <blockquote className='text-xl font-semibold leading-8 tracking-tight text-gray-900'>
-                      <p>
+                      <p className={`${cedarville.className} text-2xl`}>
                         “After spending more than 30 years in Bangkok, I joined
                         the BWG . I&apos;ve made lots of new friendships and
                         rekindled old ones, and have had a lot of fun along the
@@ -116,7 +116,7 @@ export default function Home() {
                         className='mt-1 h-10 w-10 flex-none rounded-full bg-gray-50'
                       />
                       <div className='text-sm leading-6'>
-                        <div className='font-semibold text-gray-900'>Karen</div>
+                        <div className='font-semibold text-gray-900'><span className={`${cedarville.className} text-3xl`}>Karen</span></div>
                       </div>
                     </figcaption>
                   </figure>
