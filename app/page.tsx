@@ -20,7 +20,7 @@ const montserrat = Montserrat({
 export default function Home() {
   return (
     <>
-      <main className={`${montserrat.className} bg-transparent`}>
+      <main className={`bg-transparent`}>
         <section className='top-0 w-full z-50 fixed'>
           <Header />
         </section>

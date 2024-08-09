@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Upcoming Events', href: '#' },
   { name: 'Welfare', href: '#' },
   { name: 'Testimonials', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'Contact', href: '/contact' },
 ]
 
 export default function Header() {
