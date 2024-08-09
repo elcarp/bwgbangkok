@@ -20,14 +20,14 @@ const Testimonials: NextPage<any> = (props) => {
       ''
       <Header />
       <section>
-        <TestimonialSection />
+        {/* <TestimonialSection /> */}
         <div className='bg-white text-center'>
           <Link href='/application-form'>
-          <button
-            type='button'
-            className='cursor-pointer animate-bounce rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500'>
-            Join BWG
-          </button>
+            <button
+              type='button'
+              className='cursor-pointer animate-bounce rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500'>
+              Join BWG
+            </button>
           </Link>
         </div>
       </section>
