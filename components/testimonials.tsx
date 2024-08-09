@@ -12,7 +12,7 @@ const testimonials = [
   [
     [
       {
-        body: 'After spending more than 30 years in Bangkok, I joined the BWG . I have made lots of new friendships and rekindled old ones, and have had a lot of fun along the way. The BWG is a friendly, welcoming group',
+        body: 'After spending more than 30 years in Bangkok, I joined the BWG. I have made lots of new friendships and rekindled old ones, and have had a lot of fun along the way. The BWG is a friendly, welcoming group',
         author: {
           name: 'Karen',
           handle: 'lesliealexander',
@@ -50,7 +50,7 @@ const testimonials = [
     ],
     [
       {
-        body: 'When I moved to Bangkok I knew no one. Joining the BWG is the best thing Idid. Instantly I had a social life and fun things to do with a group of like minded people!',
+        body: 'When I moved to Bangkok I knew no one. Joining the BWG is the best thing I did. Instantly I had a social life and fun things to do with a group of like minded people!',
         author: {
           name: 'Petra',
           handle: 'leonardkrasner',
