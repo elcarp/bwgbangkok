@@ -133,7 +133,7 @@ const days = [
   // { date: '2022-02-05', events: [] },
   // { date: '2022-02-06', events: [] },
 ]
-const selectedDay = days.find((day) => day.isSelected)
+const selectedDay = days.find((day: any) => day.isSelected)
 
 function classNames(...classes: (string | boolean | undefined)[]) {
   return classes.filter(Boolean).join(' ')
