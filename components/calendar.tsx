@@ -322,7 +322,7 @@ export default function Calendar() {
                       ? 'flex h-6 w-6 items-center justify-center rounded-full bg-blue-500 font-semibold text-white'
                       : undefined
                   }>
-                  {day.date.split('-').pop().replace(/^0/, '')}
+                  {/* {day?.date?.split('-').pop().replace(/^0/, '')} */}
                 </time>
                 {day.events.length > 0 && (
                   <ol className='mt-2'>
@@ -384,7 +384,7 @@ export default function Calendar() {
                 <span className='sr-only'>{day.events.length} events</span>
                 {day.events.length > 0 && (
                   <span className='-mx-0.5 mt-auto flex flex-wrap-reverse'>
-                    {day.events.map((event) => (
+                    {day.events.map((event: any) => (
                       <span
                         key={event.id}
                         className='mx-0.5 mb-1 h-1.5 w-1.5 rounded-full bg-gray-400'
