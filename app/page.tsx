@@ -1,13 +1,13 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import GroupPhoto from '~public/images/bwgbangkok-group.webp'
 import GroupPhoto2 from '~public/images/bwg-group-photo.webp'
 import { Cedarville_Cursive, Montserrat } from 'next/font/google'
 import Header from '~components/header'
-import Logo from '~public/images/logo-no-bg.png'
 import { InformationCircleIcon } from '@heroicons/react/16/solid'
 import Calendar from '~components/calendar'
 import Footer from '~components/footer'
+import CombinedLunch from '~public/images/combined_lunch.webp'
+import ExpatsBangkok from '~public/images/expats_bangkok.webp'
 
 const cedarville = Cedarville_Cursive({
   weight: '400',
@@ -156,6 +156,33 @@ export default function Home() {
         </section>
         <section className='container mx-auto py-20'>
           <Calendar />
+        </section>
+        <section>
+          <div className='container mx-auto lg:flex items-center'>
+            <div className='w-full lg:w-1/2 mx-auto h-screen-3/4 shadow-xl relative rounded-xl'>
+              <Image
+                src={CombinedLunch}
+                layout='fill'
+                objectFit='contain'
+                alt='Combined Lunch'
+              />
+            </div>
+            <div className='w-full px-10 lg:w-1/2'>
+              <h2 className='text-center'>Reserve your spot</h2>
+              <p className='mt-10 text-center'>
+                Scan the QR code to the left for more information on tickets and
+                tables. We look forward to seeing you this year 🥂
+              </p>
+              <p className='mt-10 text-center'>Combined Women’s Lunch is sponsored by:</p>
+              <Image
+                src={ExpatsBangkok}
+                className='mt-5 mx-auto'
+                width={355}
+                height={122}
+                alt='Expats in Bangkok'
+              />
+            </div>
+          </div>
         </section>
         <Footer />
       </main>

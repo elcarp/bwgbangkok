@@ -10,6 +10,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        'screen-1/3': '33vh',
+        'screen-1/2': '50vh',
+        'screen-2/3': '66vh',
+        'screen-3/4': '75vh',
+      },
       fontSize: {
         xs: '.75rem',
         sm: '.875rem',
