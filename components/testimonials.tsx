@@ -1,5 +1,5 @@
 const featuredTestimonial = {
-  body: 'I am new to Bangkok and I am so pleased that I joined BWG in April 2024. This is a group of warm & friendly ladies from the UK and different countries, truly international! I have been invited to various events like coffee mornings to lunches, creative Workshops and more. I enjoyed attending these events and feel part of the community in such a short time.',
+  body: 'I am new to Bangkok and I am so pleased that I joined BWG in April 2024. This is a group of warm and friendly ladies from the UK and different countries, truly international! I have been invited to various events like coffee mornings to lunches, creative Workshops and more. I enjoyed attending these events and feel part of the community in such a short time.',
   author: {
     name: 'Anita',
     handle: 'brennagoyette',
