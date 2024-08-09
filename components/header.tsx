@@ -8,9 +8,8 @@ import Logo from '~public/images/bwgb-logo.webp'
 
 const navigation = [
   { name: 'Activities', href: '/calendar' },
-  { name: 'Upcoming Events', href: '#' },
-  { name: 'Welfare', href: '#' },
-  { name: 'Testimonials', href: '#' },
+  { name: 'Welfare', href: '/welfare' },
+  { name: 'Testimonials', href: '/testimonials' },
   { name: 'Contact', href: '/contact' },
 ]
 
