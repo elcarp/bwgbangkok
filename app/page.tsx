@@ -168,7 +168,7 @@ export default function Home() {
               />
             </div>
             <div className='w-full px-10 lg:w-1/2'>
-              <h2 className='text-center'>Reserve your seat</h2>
+              <h2 className='text-center mt-20 lg:mt-0'>Reserve your seat</h2>
               <p className='mt-10 text-center'>
                 Scan the QR code to the left for more information on tickets and
                 tables. We look forward to seeing you this year 🥂
