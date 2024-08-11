@@ -5,7 +5,6 @@ import Link from 'next/link'
 import Footer from '~components/footer'
 import Header from '~components/header'
 import JoinUs from '~components/join_us'
-import spdf from 'simple-react-pdf'
 
 const About: NextPage<any> = (props) => {
   return (
@@ -23,7 +22,6 @@ const About: NextPage<any> = (props) => {
       <a href='public/applicationform.pdf' download='cv'>
         Download CV
       </a>
-      <spdf.SimplePDF file='./example1.pdf' />
 
       <Footer />
     </>
