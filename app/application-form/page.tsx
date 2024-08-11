@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Footer from '~components/footer'
 import Header from '~components/header'
 import JoinUs from '~components/join_us'
+import PdfViewer from '~components/pdfviewer'
 
 const About: NextPage<any> = (props) => {
   return (
@@ -19,10 +20,9 @@ const About: NextPage<any> = (props) => {
       </Head>
       <Header />
       <JoinUs />
-      <a href='public/applicationform.pdf' download='cv'>
-        Download CV
-      </a>
-
+      <section className='max-w-4xl mx-auto p-20 h-screen'>
+        <PdfViewer url={'https://pdfobject.com/pdf/sample.pdf'} />
+      </section>
       <Footer />
     </>
   )
