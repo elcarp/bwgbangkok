@@ -21,7 +21,7 @@ const About: NextPage<any> = (props) => {
       <Header />
       <JoinUs />
       <section className='max-w-4xl mx-auto p-20 h-screen'>
-        <PdfViewer url={'https://pdfobject.com/pdf/sample.pdf'} />
+        <PdfViewer url={'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/application-form-2024-pdf_edited-Trk9rjE7KwWrZzIPYobws6LHsrad5i.pdf'} />
       </section>
       <Footer />
     </>
