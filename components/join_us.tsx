@@ -74,10 +74,20 @@ export default function JoinUs() {
                 <p className='mt-6'>
                   We are always pleased to welcome new members. If you are
                   interested in joining, please get in touch with us at
-                  membershipbwg@gmail.com or you may use the <Link href='/contact' className='font-bold'>contact form</Link>.
-                  Membership fee is 1200 baht per year renewable annually in
-                  January. To download an Application Form please click on the
-                  Download button below.
+                  membershipbwg@gmail.com or you may use the{' '}
+                  <Link href='/contact' className='font-bold'>
+                    contact form
+                  </Link>
+                  . Membership fee is 1200 baht per year renewable annually in
+                  January. To download an Application Form see the form below
+                  and download or{' '}
+                  <a
+                    target='_blank'
+                    href='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/application-form-2024-pdf_edited-Trk9rjE7KwWrZzIPYobws6LHsrad5i.pdf'
+                    className='font-bold text-red-300'>
+                    click here
+                  </a>
+                  .
                 </p>
                 <p className='mt-6'>
                   The fee can be paid either by domestic bank transfer or
