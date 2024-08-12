@@ -21,6 +21,7 @@ export async function POST(request: Request): Promise<NextResponse> {
             'image/jpeg',
             'image/png',
             'image/gif',
+            'image/webp',
             'application/pdf',
           ],
           tokenPayload: JSON.stringify({

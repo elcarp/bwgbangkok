@@ -6,6 +6,12 @@ import {
   ClockIcon,
   EllipsisHorizontalIcon,
 } from '@heroicons/react/20/solid'
+import { Cedarville_Cursive } from 'next/font/google'
+
+const cedarville = Cedarville_Cursive({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 const days = [
   { date: '2024-07-28', events: [] },
@@ -14,55 +20,136 @@ const days = [
   { date: '2024-07-31', events: [] },
   {
     date: '2024-08-01',
-    isCurrentMonth: true,
-    isToday: true,
+    events: [{ name: '📝 Committee Meeting', href: '/calendar' }],
+  },
+  { date: '2024-08-02', events: [] },
+  { date: '2024-08-03', events: [] },
+  { date: '2024-08-04', events: [] },
+  {
+    date: '2024-08-05',
     events: [
       {
-        id: 1,
-        name: 'Mahjong',
-        time: '10AM',
-        datetime: '2022-01-03T10:00',
-        href: '#',
-      },
-      {
-        id: 1,
-        name: 'Book club',
-        time: '10AM',
-        datetime: '2022-01-03T10:00',
-        href: '#',
+        name: '🀄 Mahjong Group at The British Club',
+        time: '10:00',
+        href: '/calendar#mahjong',
       },
     ],
   },
-  { "date": "2024-08-02", "events": [] },
-  { "date": "2024-08-03", "events": [] },
-  { "date": "2024-08-04", "events": [] },
-  { "date": "2024-08-05", "events": [] },
-  { "date": "2024-08-06", "events": [] },
-  { "date": "2024-08-07", "events": [] },
-  { "date": "2024-08-08", "events": [] },
-  { "date": "2024-08-09", "events": [] },
-  { "date": "2024-08-10", "events": [] },
-  { "date": "2024-08-11", "events": [] },
-  { "date": "2024-08-12", "events": [] },
-  { "date": "2024-08-13", "events": [] },
-  { "date": "2024-08-14", "events": [] },
-  { "date": "2024-08-15", "events": [] },
-  { "date": "2024-08-16", "events": [] },
-  { "date": "2024-08-17", "events": [] },
-  { "date": "2024-08-18", "events": [] },
-  { "date": "2024-08-19", "events": [] },
-  { "date": "2024-08-20", "events": [] },
-  { "date": "2024-08-21", "events": [] },
-  { "date": "2024-08-22", "events": [] },
-  { "date": "2024-08-23", "events": [] },
-  { "date": "2024-08-24", "events": [] },
-  { "date": "2024-08-25", "events": [] },
-  { "date": "2024-08-26", "events": [] },
-  { "date": "2024-08-27", "events": [] },
-  { "date": "2024-08-28", "events": [] },
-  { "date": "2024-08-29", "events": [] },
-  { "date": "2024-08-30", "events": [] },
-  { "date": "2024-08-31", "events": [] }
+  {
+    date: '2024-08-06',
+    events: [
+      {
+        name: '📚 Book Club at Duc de Praslin',
+        time: '10:30',
+        href: '/calendar#bookclub',
+      },
+      {
+        name: '⛳ Golf Group',
+        href: '/calendar#golf',
+      },
+    ],
+  },
+  {
+    date: '2024-08-07',
+    events: [
+      {
+        name: '🀄 Mahjong Group at The Foreign Correspondents Club',
+        time: '10:15',
+        href: '/calendar#mahjong',
+      },
+    ],
+  },
+  {
+    date: '2024-08-08',
+    events: [{ name: '☕ Coffee Morning', href: '/calendar' }],
+  },
+  { date: '2024-08-09', events: [] },
+  { date: '2024-08-10', events: [] },
+  { date: '2024-08-11', events: [] },
+  {
+    date: '2024-08-12',
+    events: [
+      {
+        name: '🀄 Mahjong Group at The British Club',
+        time: '10:00',
+        href: '/calendar#mahjong',
+      },
+    ],
+  },
+  {
+    date: '2024-08-13',
+    events: [{ name: '⛳ Golf Group', href: '/calendar#golf' }],
+  },
+  {
+    date: '2024-08-14',
+    events: [
+      {
+        name: '🀄 Mahjong Group at The Foreign Correspondents Club',
+        time: '10:15',
+        href: '/calendar#mahjong',
+      },
+    ],
+  },
+  { date: '2024-08-15', events: [{ name: '🥗 Lunch', href: '/calendar' }] },
+  { date: '2024-08-16', events: [] },
+  { date: '2024-08-17', events: [] },
+  { date: '2024-08-18', events: [] },
+  {
+    date: '2024-08-19',
+    events: [
+      {
+        name: '🀄 Mahjong Group at The British Club',
+        time: '10:00',
+        href: '/calendar#mahjong',
+      },
+    ],
+  },
+  {
+    date: '2024-08-20',
+    events: [{ name: '⛳ Golf Group', href: '/calendar#golf' }],
+  },
+  {
+    date: '2024-08-21',
+    events: [
+      {
+        name: '🀄 Mahjong Group at The Foreign Correspondents Club',
+        time: '10:15',
+        href: '/calendar#mahjong',
+      },
+    ],
+  },
+  { date: '2024-08-22', events: [{ name: 'Activity', href: '/calendar' }] },
+  { date: '2024-08-23', events: [] },
+  { date: '2024-08-24', events: [] },
+  { date: '2024-08-25', events: [] },
+  {
+    date: '2024-08-26',
+    events: [
+      {
+        name: '🀄 Mahjong Group at The British Club',
+        time: '10:00',
+        href: '/calendar#mahjong',
+      },
+    ],
+  },
+  {
+    date: '2024-08-27',
+    events: [{ name: '⛳ Golf Group', href: '/calendar#golf' }],
+  },
+  {
+    date: '2024-08-28',
+    events: [
+      {
+        name: '🀄 Mahjong Group at The Foreign Correspondents Club',
+        time: '10:15',
+        href: '/calendar#mahjong',
+      },
+    ],
+  },
+  { date: '2024-08-29', events: [] },
+  { date: '2024-08-30', events: [] },
+  { date: '2024-08-31', events: [] },
+
   // { date: '2021-12-27', events: [] },
   // { date: '2021-12-28', events: [] },
   // { date: '2021-12-29', events: [] },
@@ -143,9 +230,15 @@ export default function Calendar() {
   return (
     <div className='lg:flex lg:h-full lg:flex-col'>
       <header className='flex items-center justify-between border-b border-gray-200 px-6 py-4 lg:flex-none'>
-        <h1 className='text-base font-semibold leading-6 text-gray-900'>
-          <time dateTime='2022-01'>August 2024</time>
-        </h1>
+        <div className='text-center mb-10 w-full'>
+          <p
+            className={`${cedarville.className} text-3xl font-semibold leading-8 tracking-tight text-blue-500`}>
+            Come join the fun
+          </p>
+          <h2 className='mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
+            Activities - August 2024
+          </h2>
+        </div>
         <div className='flex items-center'>
           {/* <div className='relative flex items-center rounded-md bg-white shadow-sm md:items-stretch'>
             <button
@@ -322,19 +415,19 @@ export default function Calendar() {
                       ? 'flex h-6 w-6 items-center justify-center rounded-full bg-blue-500 font-semibold text-white'
                       : undefined
                   }>
-                  {/* {day?.date?.split('-').pop().replace(/^0/, '')} */}
+                  {day.date.slice(-2)}
                 </time>
                 {day.events.length > 0 && (
                   <ol className='mt-2'>
                     {day.events.slice(0, 2).map((event) => (
                       <li key={event.id}>
                         <a href={event.href} className='group flex'>
-                          <p className='flex-auto truncate font-medium text-gray-900 group-hover:text-blue-500'>
+                          <p className='text-xs flex-auto font-medium text-gray-900 group-hover:text-blue-500'>
                             {event.name}
                           </p>
                           <time
                             dateTime={event.datetime}
-                            className='ml-3 hidden flex-none text-gray-500 group-hover:text-blue-500 xl:block'>
+                            className='ml-3 text-xs hidden flex-none text-gray-500 group-hover:text-blue-500 xl:block'>
                             {event.time}
                           </time>
                         </a>
@@ -400,29 +493,30 @@ export default function Calendar() {
       {selectedDay && selectedDay?.events.length > 0 && (
         <div className='px-4 py-10 sm:px-6 lg:hidden'>
           <ol className='divide-y divide-gray-100 overflow-hidden rounded-lg bg-white text-sm shadow ring-1 ring-black ring-opacity-5'>
-            {selectedDay && selectedDay.events.map((event: any) => (
-              <li
-                key={event.id}
-                className='group flex p-4 pr-6 focus-within:bg-gray-50 hover:bg-gray-50'>
-                <div className='flex-auto'>
-                  <p className='font-semibold text-gray-900'>{event.name}</p>
-                  <time
-                    dateTime={event.datetime}
-                    className='mt-2 flex items-center text-gray-700'>
-                    <ClockIcon
-                      className='mr-2 h-5 w-5 text-gray-400'
-                      aria-hidden='true'
-                    />
-                    {event.time}
-                  </time>
-                </div>
-                <a
-                  href={event.href}
-                  className='ml-6 flex-none self-center rounded-md bg-white px-3 py-2 font-semibold text-gray-900 opacity-0 shadow-sm ring-1 ring-inset ring-gray-300 hover:ring-gray-400 focus:opacity-100 group-hover:opacity-100'>
-                  Edit<span className='sr-only'>, {event.name}</span>
-                </a>
-              </li>
-            ))}
+            {selectedDay &&
+              selectedDay.events.map((event: any) => (
+                <li
+                  key={event.id}
+                  className='group flex p-4 pr-6 focus-within:bg-gray-50 hover:bg-gray-50'>
+                  <div className='flex-auto'>
+                    <p className='font-semibold text-gray-900'>{event.name}</p>
+                    <time
+                      dateTime={event.datetime}
+                      className='mt-2 flex items-center text-gray-700'>
+                      <ClockIcon
+                        className='mr-2 h-5 w-5 text-gray-400'
+                        aria-hidden='true'
+                      />
+                      {event.time}
+                    </time>
+                  </div>
+                  <a
+                    href={event.href}
+                    className='ml-6 flex-none self-center rounded-md bg-white px-3 py-2 font-semibold text-gray-900 opacity-0 shadow-sm ring-1 ring-inset ring-gray-300 hover:ring-gray-400 focus:opacity-100 group-hover:opacity-100'>
+                    Edit<span className='sr-only'>, {event.name}</span>
+                  </a>
+                </li>
+              ))}
           </ol>
         </div>
       )}

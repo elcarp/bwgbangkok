@@ -1,19 +1,17 @@
 import Image from 'next/image'
 import GroupPhoto from '~public/images/bwgbangkok-group.webp'
 import GroupPhoto2 from '~public/images/bwg-group-photo.webp'
-import { Cedarville_Cursive, Montserrat } from 'next/font/google'
 import Header from '~components/header'
 import { InformationCircleIcon } from '@heroicons/react/16/solid'
 import Calendar from '~components/calendar'
 import Footer from '~components/footer'
 import CombinedLunch from '~public/images/combined_lunch.webp'
 import ExpatsBangkok from '~public/images/expats_bangkok.webp'
+import { Cedarville_Cursive } from 'next/font/google'
+
 
 const cedarville = Cedarville_Cursive({
   weight: '400',
-  subsets: ['latin'],
-})
-const montserrat = Montserrat({
   subsets: ['latin'],
 })
 
