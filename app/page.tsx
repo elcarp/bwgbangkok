@@ -8,8 +8,7 @@ import Footer from '~components/footer'
 import CombinedLunch from '~public/images/combined_lunch.webp'
 import ExpatsBangkok from '~public/images/expats_bangkok.webp'
 import { Cedarville_Cursive } from 'next/font/google'
-
-
+import Head from 'next/head'
 const cedarville = Cedarville_Cursive({
   weight: '400',
   subsets: ['latin'],
@@ -65,7 +64,8 @@ export default function Home() {
             </div>
             <div className='mx-auto max-w-7xl px-6 lg:px-8'>
               <div className='mx-auto max-w-2xl lg:mx-0'>
-                <p className={`${cedarville.className} text-3xl font-semibold leading-8 tracking-tight text-blue-500`}>
+                <p
+                  className={`${cedarville.className} text-3xl font-semibold leading-8 tracking-tight text-blue-500`}>
                   Build lasting connections
                 </p>
                 <h1 className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
@@ -114,7 +114,11 @@ export default function Home() {
                         className='mt-1 h-10 w-10 flex-none rounded-full bg-gray-50'
                       />
                       <div className='text-sm leading-6'>
-                        <div className='font-semibold text-gray-900'><span className={`${cedarville.className} text-3xl`}>Karen</span></div>
+                        <div className='font-semibold text-gray-900'>
+                          <span className={`${cedarville.className} text-3xl`}>
+                            Karen
+                          </span>
+                        </div>
                       </div>
                     </figcaption>
                   </figure>
@@ -171,7 +175,9 @@ export default function Home() {
                 Scan the QR code to the left for more information on tickets and
                 tables. We look forward to seeing you this year 🥂
               </p>
-              <p className='mt-10 text-center'>Combined Women&apos;s Lunch is sponsored by:</p>
+              <p className='mt-10 text-center'>
+                Combined Women&apos;s Lunch is sponsored by:
+              </p>
               <Image
                 src={ExpatsBangkok}
                 className='mt-5 mx-auto'
