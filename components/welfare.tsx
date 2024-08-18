@@ -12,6 +12,7 @@ import mercyhouse3 from '~public/images/mercyhouse3.webp'
 import mercyhouse4 from '~public/images/mercyhouse4.webp'
 import mercyhouse5 from '~public/images/mercyhouse5.webp'
 import mercyhouse6 from '~public/images/mercyhouse6.webp'
+import Link from 'next/link'
 
 export default function Welfare() {
   return (
@@ -87,6 +88,52 @@ export default function Welfare() {
               </div>
             </section>
 
+            <section>
+              <p className='text-base font-semibold leading-7 text-blue-500'>
+                More from THEP:
+              </p>
+              <div className='grid grid-cols-3 items-center mt-4'>
+                <div className='mx-2 shadow-xl rounded-lg'>
+                  <Link href='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/Thep-9FIZ64t9S0S5s5H9ToNHg5p65RMont.pdf'>
+                    <img
+                      width='200'
+                      height='280'
+                      src='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/thep-thumbnail-GhDZB6wOxS7o40BahzbLMglRfJ2fBx.png'
+                      alt='THEP email'
+                    />
+                    <span className='block text-center text-xs'>
+                      Message from THEP
+                    </span>
+                  </Link>
+                </div>
+                <div className='mx-2 shadow-xl rounded-lg mt-3'>
+                  <Link href='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/Sponsorship%20Surapha-POKuTsecld3wiBwliHcpT8yGAOXjTk.pdf'>
+                    <img
+                      width='200'
+                      height='280'
+                      src='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/surapha-thumbnail-hE5RqLkPAytKfAJf13UCVVxcHp7c1c.png'
+                      alt='Sponsored Student Surapha'
+                    />
+                    <span className='block text-center text-xs'>
+                      Student sponsor Surapha
+                    </span>
+                  </Link>
+                </div>
+                <div className='mx-2 shadow-xl rounded-lg'>
+                  <Link href='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/Student%20sponsor%20Aree-uCcoDbCUyUfKc5L4X2HhiK6ddtGZDB.pdf'>
+                    <img
+                      width='200'
+                      height='280'
+                      src='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/aree-thumnail-UjJ2tDaJDyB5sTTN7dTyl5Oq4qqMol.png'
+                      alt='Sponsored Student Aree'
+                    />
+                    <span className='block text-center text-xs'>
+                      Student sponsor Aree
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </section>
             <figure className='mt-10 border-l border-blue-500 pl-9'>
               <blockquote className='font-semibold text-gray-900'>
                 <p>
