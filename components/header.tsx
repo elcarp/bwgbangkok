@@ -52,8 +52,8 @@ export default function Header() {
             </a>
           ))}
         </div>
-        <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
-          <a href='/application-form' className='text-sm font-semibold leading-6 text-gray-900'>
+        <div className='hidden lg:flex lg:flex-1 lg:justify-end bg-blue-'>
+          <a href='/application-form' className='text-sm font-semibold leading-6 text-white bg-blue-500 px-4 py-2 rounded-lg hover:animate-bounce'>
             Join BWG <span aria-hidden='true'>&rarr;</span>
           </a>
         </div>
