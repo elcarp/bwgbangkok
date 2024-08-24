@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 const stats = [
   { label: 'Founded', value: '1969' },
-  { label: 'Members', value: '37' },
+  { label: 'Members', value: '116' },
 ]
 
 const cedarville = Cedarville_Cursive({
