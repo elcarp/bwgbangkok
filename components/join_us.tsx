@@ -83,7 +83,7 @@ export default function JoinUs() {
                   and download or{' '}
                   <a
                     target='_blank'
-                    href='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/application-form-2024-pdf_edited-Trk9rjE7KwWrZzIPYobws6LHsrad5i.pdf'
+                    href='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/Application%20form%20Aug%202024-xVkcx3iDBhRNaLnRimh2EKA9V1YGHC.pdf'
                     className='font-bold text-red-300'>
                     click here
                   </a>
