@@ -108,11 +108,11 @@ export default function Home() {
                       </p>
                     </blockquote>
                     <figcaption className='mt-8 flex gap-x-4 items-center'>
-                      <img
+                      {/* <img
                         alt=''
                         src='https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
                         className='mt-1 h-10 w-10 flex-none rounded-full bg-gray-50'
-                      />
+                      /> */}
                       <div className='text-sm leading-6'>
                         <div className='font-semibold text-gray-900'>
                           <span className={`${cedarville.className} text-3xl`}>
@@ -148,7 +148,7 @@ export default function Home() {
                         aria-hidden='true'
                         className='mt-0.5 h-5 w-5 flex-none text-gray-300'
                       />
-                      Group photo from x event
+                      Group photo from the Chinese New Year Coffee Morning event
                     </figcaption>
                   </figure>
                 </div>
