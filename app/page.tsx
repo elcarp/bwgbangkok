@@ -131,9 +131,9 @@ export default function Home() {
                     warmly welcomed. Join us and meet like-minded women, enjoy
                     social activities, fun nights out and get involved in fund
                     raising activities.
-                    <strong className='block mt-5 font-bold text-red-300'>
+                    <a href='/application-form' className='block mt-5 font-bold text-red-300'>
                       Come and join the fun!
-                    </strong>
+                    </a>
                   </p>
                   <figure className='mt-16'>
                     <Image
