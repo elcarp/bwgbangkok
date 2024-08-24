@@ -7,6 +7,7 @@ import Image from 'next/image'
 import Logo from '~public/images/bwgb-logo.webp'
 
 const navigation = [
+  { name: 'Home', href: '/' },
   { name: 'Activities', href: '/calendar' },
   { name: 'Welfare', href: '/welfare' },
   { name: 'Testimonials', href: '/testimonials' },
