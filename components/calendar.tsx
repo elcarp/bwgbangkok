@@ -200,14 +200,14 @@ export default function Calendar() {
                 <time dateTime={day.date}>{day.date.slice(-2)}</time>
                 {day.events.length > 0 && (
                   <ol className='mt-2'>
-                    {day.events.slice(0, 2).map((event) => (
+                    {day.events.slice(0, 2).map((event: any) => (
                       <li key={event.name}>
                         <a href={event.href} className='group flex'>
                           <p className='text-xs flex-auto font-medium text-gray-900 group-hover:text-blue-500'>
                             {event.name}
                           </p>
                           <time className='ml-3 text-xs hidden flex-none text-gray-500 group-hover:text-blue-500 xl:block'>
-                            {event.time ? event.time : ''}
+                            {event?.time}
                           </time>
                         </a>
                       </li>
