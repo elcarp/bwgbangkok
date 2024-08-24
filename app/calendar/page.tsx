@@ -62,9 +62,9 @@ const About: NextPage<any> = (props) => {
                 </a>
               </li>
               <li>
-                ⛳{' '}
-                <a href='/calendar#golf' className='text-red-300 font-bold'>
-                  golf
+                🏏{' '}
+                <a href='/calendar#misc' className='text-red-300 font-bold'>
+                  pickleball and zumba
                 </a>
               </li>
               <li>outings to places of interest</li>
@@ -110,6 +110,11 @@ const About: NextPage<any> = (props) => {
                   events and fun nights out on other days.
                 </li>
               </ul>
+              <a
+                className='px-4 py-2 bg-blue-500 hover:animate-bounce rounded-lg font-bold text-white mt-10 block w-[5rem] mx-auto'
+                href='mailto:bwgbangkok@gmail.com'>
+                RSVP
+              </a>
             </div>
 
             <div
@@ -125,11 +130,14 @@ const About: NextPage<any> = (props) => {
                 </strong>{' '}
                 on Silom Soi 18, and every{' '}
                 <strong className='font-semibold'>
-                  Wednesday from 10.15 to 13.00 at The Foreign Correspondents
-                  Club
+                  Wednesday from 10.15 to 13.00 at The Royal Oak{' '}
                 </strong>{' '}
-                on Ploenchit Road.
               </p>
+              <a
+                className='px-4 py-2 bg-blue-500 hover:animate-bounce rounded-lg font-bold text-white mt-10 block w-[5rem] mx-auto'
+                href='mailto:bwgbangkok@gmail.com'>
+                RSVP
+              </a>
             </div>
 
             <div
@@ -145,17 +153,27 @@ const About: NextPage<any> = (props) => {
                 <strong className='font-semibold'>10.30 - 12.00</strong> at Duc
                 de Praslin.
               </p>
+              <a
+                className='px-4 py-2 bg-blue-500 hover:animate-bounce rounded-lg font-bold text-white mt-10 block w-[5rem] mx-auto'
+                href='mailto:bwgbangkok@gmail.com'>
+                RSVP
+              </a>
             </div>
 
-            <div className='mt-20 bg-white p-10 rounded-xl shadow-xl' id='golf'>
+            <div className='mt-20 bg-white p-10 rounded-xl shadow-xl' id='misc'>
               <h4 className='font-bold tracking-tight text-gray-900 sm:text-4xl'>
-                Golf ⛳
+                Pickleball 🏏 & Zumba 💃
               </h4>
               <p className='text-center mt-5 max-w-xl mx-auto'>
-                Golf group meets on{' '}
-                <strong className='font-semibold'>Tuesdays</strong> – time and
-                location varies.
+                Pickleball and Zumba meet on
+                <strong className='font-semibold'> various days</strong> – time
+                and location vary.
               </p>
+              <a
+                className='px-4 py-2 bg-blue-500 hover:animate-bounce rounded-lg font-bold text-white mt-10 block w-[5rem] mx-auto'
+                href='mailto:bwgbangkok@gmail.com'>
+                RSVP
+              </a>
             </div>
 
             <div
@@ -170,6 +188,11 @@ const About: NextPage<any> = (props) => {
                   here.
                 </a>
               </p>
+              <a
+                className='px-4 py-2 bg-blue-500 hover:animate-bounce rounded-lg font-bold text-white mt-10 block w-[5rem] mx-auto'
+                href='mailto:bwgbangkok@gmail.com'>
+                RSVP
+              </a>
             </div>
           </div>
         </div>

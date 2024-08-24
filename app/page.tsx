@@ -131,8 +131,17 @@ export default function Home() {
                     warmly welcomed. Join us and meet like-minded women, enjoy
                     social activities, fun nights out and get involved in fund
                     raising activities.
-                    <a href='/application-form' className='block mt-5 font-bold text-red-300'>
+                    <a
+                      href='/application-form'
+                      className='block mt-5 font-bold text-red-300'>
                       Come and join the fun!
+                    </a>
+                  </p>
+                  <p className='mt-5'>
+                    All proceeds go to THEP Thailand Hilltribe Education
+                    Projects and Queen Sirikit Centre for Breast Cancer.{' '}
+                    <a href='/welfare' className='font-bold text-red-300'>
+                      Learn more.
                     </a>
                   </p>
                   <figure className='mt-16'>
