@@ -207,7 +207,7 @@ export default function Calendar() {
                             {event.name}
                           </p>
                           <time className='ml-3 text-xs hidden flex-none text-gray-500 group-hover:text-blue-500 xl:block'>
-                            {event.time}
+                            {event?.time && event?.time}
                           </time>
                         </a>
                       </li>
