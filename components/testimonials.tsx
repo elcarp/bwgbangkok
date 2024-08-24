@@ -24,9 +24,9 @@ const testimonials = [
     ],
     [
       {
-        body: 'Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.',
+        body: 'Joining the BWG let me meet people of similar ilk, that developed into long and lasting friendship. It also gave me access to a wealth of information and knowledge about what to do and where to go!',
         author: {
-          name: 'Lindsay Walton',
+          name: 'Lynne',
           handle: 'lindsaywalton',
           imageUrl:
             'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -36,18 +36,6 @@ const testimonials = [
     ],
   ],
   [
-    [
-      {
-        body: 'Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.',
-        author: {
-          name: 'Tom Cook',
-          handle: 'tomcook',
-          imageUrl:
-            'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
-      },
-      // More testimonials...
-    ],
     [
       {
         body: 'When I moved to Bangkok I knew no one. Joining the BWG is the best thing I did. Instantly I had a social life and fun things to do with a group of like minded people!',
@@ -107,22 +95,11 @@ export default function Example() {
               <p>{`“${featuredTestimonial.body}”`}</p>
             </blockquote>
             <figcaption className='flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-gray-900/10 px-6 py-4 sm:flex-nowrap'>
-              <img
-                alt=''
-                src={featuredTestimonial.author.imageUrl}
-                className='h-10 w-10 flex-none rounded-full bg-gray-50'
-              />
               <div className='flex-auto'>
                 <div className='font-semibold'>
                   {featuredTestimonial.author.name}
                 </div>
-                <div className='text-gray-600'>{`@${featuredTestimonial.author.handle}`}</div>
               </div>
-              <img
-                alt=''
-                src={featuredTestimonial.author.logoUrl}
-                className='h-10 w-auto flex-none'
-              />
             </figcaption>
           </figure>
           {testimonials.map((columnGroup, columnGroupIdx) => (
@@ -148,16 +125,10 @@ export default function Example() {
                         <p>{`“${testimonial.body}”`}</p>
                       </blockquote>
                       <figcaption className='mt-6 flex items-center gap-x-4'>
-                        <img
-                          alt=''
-                          src={testimonial.author.imageUrl}
-                          className='h-10 w-10 rounded-full bg-gray-50'
-                        />
                         <div>
                           <div className='font-semibold'>
                             {testimonial.author.name}
                           </div>
-                          <div className='text-gray-600'>{`@${testimonial.author.handle}`}</div>
                         </div>
                       </figcaption>
                     </figure>
