@@ -43,10 +43,6 @@ const days = [
         time: '10:30',
         href: '/calendar#bookclub',
       },
-      {
-        name: '⛳ Golf Group',
-        href: '/calendar#golf',
-      },
     ],
   },
   {
@@ -78,7 +74,7 @@ const days = [
   },
   {
     date: '2024-08-13',
-    events: [{ name: '⛳ Golf Group', href: '/calendar#golf' }],
+    events: [],
   },
   {
     date: '2024-08-14',
@@ -106,7 +102,7 @@ const days = [
   },
   {
     date: '2024-08-20',
-    events: [{ name: '⛳ Golf Group', href: '/calendar#golf' }],
+    events: [],
   },
   {
     date: '2024-08-21',
@@ -134,7 +130,7 @@ const days = [
   },
   {
     date: '2024-08-27',
-    events: [{ name: '⛳ Golf Group', href: '/calendar#golf' }],
+    events: [],
   },
   {
     date: '2024-08-28',
