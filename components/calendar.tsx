@@ -53,8 +53,8 @@ const days = [
     date: '2024-08-07',
     events: [
       {
-        name: '🀄 Mahjong Group at The Foreign Correspondents Club',
-        time: '10:15',
+        name: '🀄 Mahjong Group at The Royal Oak',
+        time: '10:00',
         href: '/calendar#mahjong',
       },
     ],
@@ -84,8 +84,8 @@ const days = [
     date: '2024-08-14',
     events: [
       {
-        name: '🀄 Mahjong Group at The Foreign Correspondents Club',
-        time: '10:15',
+        name: '🀄 Mahjong Group at The Royal Oak',
+        time: '10:00',
         href: '/calendar#mahjong',
       },
     ],
@@ -112,8 +112,8 @@ const days = [
     date: '2024-08-21',
     events: [
       {
-        name: '🀄 Mahjong Group at The Foreign Correspondents Club',
-        time: '10:15',
+        name: '🀄 Mahjong Group at The Royal Oak',
+        time: '10:00',
         href: '/calendar#mahjong',
       },
     ],
@@ -140,8 +140,8 @@ const days = [
     date: '2024-08-28',
     events: [
       {
-        name: '🀄 Mahjong Group at The Foreign Correspondents Club',
-        time: '10:15',
+        name: '🀄 Mahjong Group at The Royal Oak',
+        time: '10:00',
         href: '/calendar#mahjong',
       },
     ],
