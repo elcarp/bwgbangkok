@@ -181,12 +181,31 @@ export default function Home() {
             <div className='w-full px-10 lg:w-1/2'>
               <h2 className='text-center mt-20 lg:mt-0'>Reserve your seat</h2>
               <p className='mt-10 text-center'>
-                Scan the QR code to the left for more information on tickets and
-                tables. We look forward to seeing you this year 🥂
+                <a
+                  className='font-bold text-red-300'
+                  href='https://docs.google.com/forms/d/e/1FAIpQLSc4t2HH4QdNnm7MLJ57Lc2RM_V9sZSiyG6EOhIFNkyHjYZeTw/viewform'>
+                  Click here{' '}
+                </a>
+                for more information on tickets and tables.
               </p>
-              <p className='mt-10 text-center'>
+              <p className='text-center mt-5'>
+                All proceeds from the event will be generously donated to the
+                Thailand Hilltribe Education Projects THEP and the Queen Sirikit
+                Centre for Breast Cancer, supporting vital initiatives that help
+                communities and improve lives.
+              </p>
+              <p className='mt-5 text-center'>
+                We look forward to seeing you this year 🥂
+              </p>
+              <a
+                href='https://docs.google.com/forms/d/e/1FAIpQLSc4t2HH4QdNnm7MLJ57Lc2RM_V9sZSiyG6EOhIFNkyHjYZeTw/viewform'
+                className='px-4 py-2 rounded-lg bg-red-300 animate-bounce font-bold mx-auto block w-[5rem] text-center mt-8'>
+                RSVP
+              </a>
+              <p className='mt-10 text-center text-sm'>
                 Combined Women&apos;s Lunch is sponsored by:
               </p>
+
               <Image
                 src={ExpatsBangkok}
                 className='mt-5 mx-auto'
