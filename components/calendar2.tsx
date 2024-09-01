@@ -159,7 +159,7 @@ export default function Example() {
                       'mx-auto flex h-7 w-7 items-center justify-center rounded-full',
                     )}
                   >
-                    {day.date.split('-').pop().replace(/^0/, '')}
+                    {/* {day.date.split('-').pop().replace(/^0/, '')} */}
                   </time>
                 </button>
               ))}
