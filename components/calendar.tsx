@@ -161,8 +161,14 @@ export default function Calendar() {
             Activities - September 2024
           </h2>
         </div>
+      
         <div className='flex items-center'></div>
       </header>
+      <a
+          href='/calendar'
+          className='bg-red-300 px-4 py-2 block rounded-lg text-white max-w-sm text-center mx-auto mb-10 font-bold'>
+          View Calendar
+        </a>
       <div className='shadow ring-1 ring-black ring-opacity-5 lg:flex lg:flex-auto lg:flex-col'>
         <div className='grid grid-cols-7 gap-px border-b border-gray-300 bg-gray-200 text-center text-xs font-semibold leading-6 text-gray-700 lg:flex-none'>
           <div className='bg-white py-2'>
