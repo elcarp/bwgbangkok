@@ -17,6 +17,7 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@vercel/blob": "^0.23.4",
     "install": "^0.13.0",
+    "keen-slider": "^6.8.6",
     "next": "14.2.5",
     "pdfjs-dist": "3.4.120",
     "react": "^18",
