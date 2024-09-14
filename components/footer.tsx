@@ -121,7 +121,7 @@ export default function Footer() {
         </p>
 
         <p className='mt-10 text-center text-xs leading-5 text-gray-500'>
-          Design and Developed with ❤️ by{' '}
+          Designed and Developed with ❤️ by{' '}
           <Link className='text-xs' href='https://www.lisecarpenter.com' target='_blank'>
             Lise Carpenter
           </Link>
