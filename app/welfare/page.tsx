@@ -1,21 +1,17 @@
-import { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import { Metadata, NextPage } from 'next'
 import Footer from '~components/footer'
 import Header from '~components/header'
 import Welfare from '~components/welfare'
 
-const About: NextPage<any> = (props) => {
+export const metadata: Metadata = {
+  title: "British Women's Group - Welfare",
+  description:
+    'BWG is a primarily a social group but has supported Thai charities which help underprivileged and disadvantaged people in Thailand right from the start.',
+}
+
+const About: NextPage<any> = () => {
   return (
     <>
-      <Head>
-        <title>Activities</title>
-        {/* <link rel='icon' href='/dm-favicon.png' /> */}
-        {/* <meta
-          name='description'
-          content={contactPageProps.seo.meta_description}
-        /> */}
-      </Head>
       <Header />
       <Welfare />
       <Footer />
