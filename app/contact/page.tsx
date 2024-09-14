@@ -4,7 +4,7 @@ import Header from '~components/header'
 import ContactSection from '~components/contact'
 
 export const metadata: Metadata = {
-  title: "British Women's Group - Contact",
+  title: "British Women's Group Bangkok - Contact",
   description:
     "Contact us today to join us for any upcoming events",
 }

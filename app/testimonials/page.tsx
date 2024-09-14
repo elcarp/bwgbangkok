@@ -5,7 +5,7 @@ import Header from '~components/header'
 import TestimonialSection from '~components/testimonials'
 
 export const metadata: Metadata = {
-  title: "British Women's Group - Testimonials",
+  title: "British Women's Group Bangkok - Testimonials",
   description:
     "What our members say about the British Women's Group",
 }

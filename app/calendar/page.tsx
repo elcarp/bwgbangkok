@@ -10,7 +10,7 @@ const cedarville = Cedarville_Cursive({
 })
 
 export const metadata: Metadata = {
-  title: "British Women's Group - Activities",
+  title: "British Women's Group Bangkok - Activities",
   description:
     "Join us for our regular activities from pickleball to mahjong",
 }
