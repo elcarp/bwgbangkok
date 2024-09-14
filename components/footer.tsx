@@ -115,9 +115,16 @@ export default function Footer() {
             alt='BWG Logo'
           />
         </Link>
-        <p className='mt-10 text-center text-xs leading-5 text-gray-500'>
+        <p className='mt-10 text-center text-sm leading-5 text-gray-500'>
           &copy; {currentYear} British Women&apos;s Group Bangkok. All rights
           reserved.
+        </p>
+
+        <p className='mt-10 text-center text-xs leading-5 text-gray-500'>
+          Design and Developed with ❤️ by{' '}
+          <Link className='text-xs' href='https://www.lisecarpenter.com' target='_blank'>
+            Lise Carpenter
+          </Link>
         </p>
       </div>
     </footer>
