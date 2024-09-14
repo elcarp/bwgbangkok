@@ -1,7 +1,4 @@
-import { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import ActivitiesSection from '~components/activities'
+import { Metadata, NextPage } from 'next'
 import Footer from '~components/footer'
 import Header from '~components/header'
 
@@ -12,17 +9,15 @@ const cedarville = Cedarville_Cursive({
   subsets: ['latin'],
 })
 
+export const metadata: Metadata = {
+  title: "British Women's Group - Activities",
+  description:
+    "Join us for our regular activities from pickleball to mahjong",
+}
+
 const About: NextPage<any> = (props) => {
   return (
     <>
-      <Head>
-        <title>Activities</title>
-        {/* <link rel='icon' href='/dm-favicon.png' /> */}
-        {/* <meta
-          name='description'
-          content={contactPageProps.seo.meta_description}
-        /> */}
-      </Head>
       <Header />
       <section className='bg-white'>
         <div className='mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8'>

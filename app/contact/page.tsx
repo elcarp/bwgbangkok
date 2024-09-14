@@ -1,21 +1,17 @@
-import { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import { Metadata, NextPage } from 'next'
 import Footer from '~components/footer'
 import Header from '~components/header'
 import ContactSection from '~components/contact'
 
-const Contact: NextPage<any> = (props) => {
+export const metadata: Metadata = {
+  title: "British Women's Group - Contact",
+  description:
+    "Contact us today to join us for any upcoming events",
+}
+
+const Contact: NextPage<any> = () => {
   return (
     <>
-      <Head>
-        <title>British Women&apos;s Group Bangkok - Contact</title>
-        {/* <link rel='icon' href='/dm-favicon.png' /> */}
-        {/* <meta
-          name='description'
-          content={contactPageProps.seo.meta_description}
-        /> */}
-      </Head>
       <Header />
       <section>
         <ContactSection />
