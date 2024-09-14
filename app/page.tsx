@@ -14,8 +14,7 @@ const cedarville = Cedarville_Cursive({
   subsets: ['latin'],
 })
 import 'keen-slider/keen-slider.min.css'
-import { useKeenSlider } from 'keen-slider/react'
-import React, { useState } from 'react'
+import React from 'react'
 import Head from 'next/head'
 import { Metadata } from 'next'
 import Slider from '~components/slider'
@@ -27,7 +26,6 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
-
   return (
     <>
       <Head>
