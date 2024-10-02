@@ -15,9 +15,16 @@ const cedarville = Cedarville_Cursive({
 
 const days = [
   { date: '2024-09-29', events: [] },
-
-  { date: '2024-09-30', events: [] },
-
+  {
+    date: '2024-09-30',
+    events: [
+      {
+        name: '🀄 Mahjong Group at The British Club',
+        time: '10:00',
+        href: '/calendar#mahjong',
+      },
+    ],
+  },
   { date: '2024-10-01', events: [] },
   {
     date: '2024-10-02',
@@ -29,15 +36,13 @@ const days = [
       },
     ],
   },
-  { date: '2024-10-03', events: [] },
-
   {
-    date: '2024-10-04',
+    date: '2024-10-03',
     events: [{ name: '📝 Committee Meeting', href: '/calendar' }],
   },
+  { date: '2024-10-04', events: [] },
   { date: '2024-10-05', events: [] },
   { date: '2024-10-06', events: [] },
-
   {
     date: '2024-10-07',
     events: [
@@ -59,15 +64,13 @@ const days = [
       },
     ],
   },
-  { date: '2024-10-10', events: [] },
-
   {
-    date: '2024-10-11',
+    date: '2024-10-10',
     events: [{ name: '☕ Coffee Morning', href: '/calendar' }],
   },
+  { date: '2024-10-11', events: [] },
   { date: '2024-10-12', events: [] },
   { date: '2024-10-13', events: [] },
-
   {
     date: '2024-10-14',
     events: [
@@ -89,15 +92,13 @@ const days = [
       },
     ],
   },
-  { date: '2024-10-17', events: [] },
-
   {
-    date: '2024-10-18',
+    date: '2024-10-17',
     events: [{ name: '🥗 Lunch', href: '/calendar' }],
   },
+  { date: '2024-10-18', events: [] },
   { date: '2024-10-19', events: [] },
   { date: '2024-10-20', events: [] },
-
   {
     date: '2024-10-21',
     events: [
@@ -119,15 +120,13 @@ const days = [
       },
     ],
   },
-  { date: '2024-10-24', events: [] },
-
   {
-    date: '2024-10-25',
+    date: '2024-10-24',
     events: [{ name: 'Activity', href: '/calendar' }],
   },
+  { date: '2024-10-25', events: [] },
   { date: '2024-10-26', events: [] },
   { date: '2024-10-27', events: [] },
-
   {
     date: '2024-10-28',
     events: [
