@@ -14,19 +14,13 @@ const cedarville = Cedarville_Cursive({
 })
 
 const days = [
-  { date: '2024-09-01', events: [] },
+  { date: '2024-09-29', events: [] },
+
+  { date: '2024-09-30', events: [] },
+
+  { date: '2024-10-01', events: [] },
   {
-    date: '2024-09-02',
-    events: [
-      {
-        name: '🀄 Mahjong Group at The British Club',
-        time: '10:00',
-        href: '/calendar#mahjong',
-      },
-    ],
-  },
-  {
-    date: '2024-09-03',
+    date: '2024-10-02',
     events: [
       {
         name: '📚 Book Club at Duc de Praslin',
@@ -35,25 +29,17 @@ const days = [
       },
     ],
   },
+  { date: '2024-10-03', events: [] },
+
   {
-    date: '2024-09-04',
-    events: [
-      {
-        name: '🀄 Mahjong Group at The Royal Oak',
-        time: '10:00',
-        href: '/calendar#mahjong',
-      },
-    ],
-  },
-  {
-    date: '2024-09-05',
+    date: '2024-10-04',
     events: [{ name: '📝 Committee Meeting', href: '/calendar' }],
   },
-  { date: '2024-09-06', events: [] },
-  { date: '2024-09-07', events: [] },
-  { date: '2024-09-08', events: [] },
+  { date: '2024-10-05', events: [] },
+  { date: '2024-10-06', events: [] },
+
   {
-    date: '2024-09-09',
+    date: '2024-10-07',
     events: [
       {
         name: '🀄 Mahjong Group at The British Club',
@@ -62,9 +48,9 @@ const days = [
       },
     ],
   },
-  { date: '2024-09-10', events: [] },
+  { date: '2024-10-08', events: [] },
   {
-    date: '2024-09-11',
+    date: '2024-10-09',
     events: [
       {
         name: '🀄 Mahjong Group at The Royal Oak',
@@ -73,15 +59,17 @@ const days = [
       },
     ],
   },
+  { date: '2024-10-10', events: [] },
+
   {
-    date: '2024-09-12',
+    date: '2024-10-11',
     events: [{ name: '☕ Coffee Morning', href: '/calendar' }],
   },
-  { date: '2024-09-13', events: [] },
-  { date: '2024-09-14', events: [] },
-  { date: '2024-09-15', events: [] },
+  { date: '2024-10-12', events: [] },
+  { date: '2024-10-13', events: [] },
+
   {
-    date: '2024-09-16',
+    date: '2024-10-14',
     events: [
       {
         name: '🀄 Mahjong Group at The British Club',
@@ -90,9 +78,9 @@ const days = [
       },
     ],
   },
-  { date: '2024-09-17', events: [] },
+  { date: '2024-10-15', events: [] },
   {
-    date: '2024-09-18',
+    date: '2024-10-16',
     events: [
       {
         name: '🀄 Mahjong Group at The Royal Oak',
@@ -101,12 +89,17 @@ const days = [
       },
     ],
   },
-  { date: '2024-09-19', events: [{ name: '🥗 Lunch', href: '/calendar' }] },
-  { date: '2024-09-20', events: [] },
-  { date: '2024-09-21', events: [] },
-  { date: '2024-09-22', events: [] },
+  { date: '2024-10-17', events: [] },
+
   {
-    date: '2024-09-23',
+    date: '2024-10-18',
+    events: [{ name: '🥗 Lunch', href: '/calendar' }],
+  },
+  { date: '2024-10-19', events: [] },
+  { date: '2024-10-20', events: [] },
+
+  {
+    date: '2024-10-21',
     events: [
       {
         name: '🀄 Mahjong Group at The British Club',
@@ -115,9 +108,9 @@ const days = [
       },
     ],
   },
-  { date: '2024-09-24', events: [] },
+  { date: '2024-10-22', events: [] },
   {
-    date: '2024-09-25',
+    date: '2024-10-23',
     events: [
       {
         name: '🀄 Mahjong Group at The Royal Oak',
@@ -126,12 +119,17 @@ const days = [
       },
     ],
   },
-  { date: '2024-09-26', events: [{ name: 'Activity', href: '/calendar' }] },
-  { date: '2024-09-27', events: [] },
-  { date: '2024-09-28', events: [] },
-  { date: '2024-09-29', events: [] },
+  { date: '2024-10-24', events: [] },
+
   {
-    date: '2024-09-30',
+    date: '2024-10-25',
+    events: [{ name: 'Activity', href: '/calendar' }],
+  },
+  { date: '2024-10-26', events: [] },
+  { date: '2024-10-27', events: [] },
+
+  {
+    date: '2024-10-28',
     events: [
       {
         name: '🀄 Mahjong Group at The British Club',
@@ -140,7 +138,23 @@ const days = [
       },
     ],
   },
+  { date: '2024-10-29', events: [] },
+  {
+    date: '2024-10-30',
+    events: [
+      {
+        name: '🀄 Mahjong Group at The Royal Oak',
+        time: '10:00',
+        href: '/calendar#mahjong',
+      },
+    ],
+  },
+  { date: '2024-10-31', events: [] },
 ]
+
+const date = new Date()
+const currentMonth = date.toLocaleString('default', { month: 'long' })
+const currentYear = date.getFullYear()
 
 const selectedDay = days.find((day: any) => day.isSelected)
 
@@ -158,17 +172,17 @@ export default function Calendar() {
             Come join the fun
           </p>
           <h2 className='mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-            Activities - September 2024
+            Activities - {currentMonth} {currentYear}
           </h2>
         </div>
-      
+
         <div className='flex items-center'></div>
       </header>
       <a
-          href='/calendar'
-          className='bg-red-300 px-4 py-2 block rounded-lg text-white max-w-sm text-center mx-auto mb-10 font-bold'>
-          View Calendar
-        </a>
+        href='/calendar'
+        className='bg-red-300 px-4 py-2 block rounded-lg text-white max-w-sm text-center mx-auto mb-10 font-bold'>
+        View Calendar
+      </a>
       <div className='shadow ring-1 ring-black ring-opacity-5 lg:flex lg:flex-auto lg:flex-col'>
         <div className='grid grid-cols-7 gap-px border-b border-gray-300 bg-gray-200 text-center text-xs font-semibold leading-6 text-gray-700 lg:flex-none'>
           <div className='bg-white py-2'>
