@@ -12,143 +12,155 @@ const cedarville = Cedarville_Cursive({
   weight: '400',
   subsets: ['latin'],
 })
-
 const days = [
-  { date: '2024-09-29', events: [] },
+  { date: '2024-10-27', events: [] },
+  { date: '2024-10-28', events: [] },
+  { date: '2024-10-29', events: [] },
+  { date: '2024-10-30', events: [] },
+  { date: '2024-10-31', events: [] },
+  { date: '2024-11-01', events: [] },
+  { date: '2024-11-02', events: [] },
+  { date: '2024-11-03', events: [] },
   {
-    date: '2024-09-30',
+    date: '2024-11-04',
     events: [
       {
         name: '🀄 Mahjong Group at The British Club',
-        time: '10:00',
+        time: '10:00 - 13:00',
         href: '/calendar#mahjong',
       },
     ],
   },
-  { date: '2024-10-01', events: [] },
   {
-    date: '2024-10-02',
+    date: '2024-11-05',
     events: [
       {
         name: '📚 Book Club at Duc de Praslin',
-        time: '10:30',
+        time: '10:30 - 12:00',
         href: '/calendar#bookclub',
       },
     ],
   },
   {
-    date: '2024-10-03',
-    events: [{ name: '📝 Committee Meeting', href: '/calendar' }],
-  },
-  { date: '2024-10-04', events: [] },
-  { date: '2024-10-05', events: [] },
-  { date: '2024-10-06', events: [] },
-  {
-    date: '2024-10-07',
-    events: [
-      {
-        name: '🀄 Mahjong Group at The British Club',
-        time: '10:00',
-        href: '/calendar#mahjong',
-      },
-    ],
-  },
-  { date: '2024-10-08', events: [] },
-  {
-    date: '2024-10-09',
+    date: '2024-11-06',
     events: [
       {
         name: '🀄 Mahjong Group at The Royal Oak',
-        time: '10:00',
+        time: '10:15 - 13:00',
         href: '/calendar#mahjong',
       },
     ],
   },
   {
-    date: '2024-10-10',
-    events: [{ name: '☕ Coffee Morning', href: '/calendar' }],
+    date: '2024-11-07',
+    events: [
+      {
+        name: '📝 Committee Meeting',
+        href: '/calendar',
+      },
+    ],
   },
-  { date: '2024-10-11', events: [] },
-  { date: '2024-10-12', events: [] },
-  { date: '2024-10-13', events: [] },
+  { date: '2024-11-08', events: [] },
+  { date: '2024-11-09', events: [] },
+  { date: '2024-11-10', events: [] },
   {
-    date: '2024-10-14',
+    date: '2024-11-11',
     events: [
       {
         name: '🀄 Mahjong Group at The British Club',
-        time: '10:00',
+        time: '10:00 - 13:00',
         href: '/calendar#mahjong',
       },
     ],
   },
-  { date: '2024-10-15', events: [] },
+  { date: '2024-11-12', events: [] },
   {
-    date: '2024-10-16',
+    date: '2024-11-13',
     events: [
       {
         name: '🀄 Mahjong Group at The Royal Oak',
-        time: '10:00',
+        time: '10:15 - 13:00',
         href: '/calendar#mahjong',
       },
     ],
   },
   {
-    date: '2024-10-17',
-    events: [{ name: '🥗 Lunch', href: '/calendar' }],
+    date: '2024-11-14',
+    events: [
+      {
+        name: '☕ Coffee Morning',
+        href: '/calendar',
+      },
+    ],
   },
-  { date: '2024-10-18', events: [] },
-  { date: '2024-10-19', events: [] },
-  { date: '2024-10-20', events: [] },
+  { date: '2024-11-15', events: [] },
+  { date: '2024-11-16', events: [] },
+  { date: '2024-11-17', events: [] },
   {
-    date: '2024-10-21',
+    date: '2024-11-18',
     events: [
       {
         name: '🀄 Mahjong Group at The British Club',
-        time: '10:00',
+        time: '10:00 - 13:00',
         href: '/calendar#mahjong',
       },
     ],
   },
-  { date: '2024-10-22', events: [] },
+  { date: '2024-11-19', events: [] },
   {
-    date: '2024-10-23',
+    date: '2024-11-20',
     events: [
       {
         name: '🀄 Mahjong Group at The Royal Oak',
-        time: '10:00',
+        time: '10:15 - 13:00',
         href: '/calendar#mahjong',
       },
     ],
   },
   {
-    date: '2024-10-24',
-    events: [{ name: 'Activity', href: '/calendar' }],
+    date: '2024-11-21',
+    events: [
+      {
+        name: '🥗 Lunch',
+        href: '/calendar',
+      },
+    ],
   },
-  { date: '2024-10-25', events: [] },
-  { date: '2024-10-26', events: [] },
-  { date: '2024-10-27', events: [] },
+  { date: '2024-11-22', events: [] },
+  { date: '2024-11-23', events: [] },
+  { date: '2024-11-24', events: [] },
   {
-    date: '2024-10-28',
+    date: '2024-11-25',
     events: [
       {
         name: '🀄 Mahjong Group at The British Club',
-        time: '10:00',
+        time: '10:00 - 13:00',
         href: '/calendar#mahjong',
       },
     ],
   },
-  { date: '2024-10-29', events: [] },
+  { date: '2024-11-26', events: [] },
   {
-    date: '2024-10-30',
+    date: '2024-11-27',
     events: [
       {
         name: '🀄 Mahjong Group at The Royal Oak',
-        time: '10:00',
+        time: '10:15 - 13:00',
         href: '/calendar#mahjong',
       },
     ],
   },
-  { date: '2024-10-31', events: [] },
+  {
+    date: '2024-11-28',
+    events: [
+      {
+        name: 'Activity',
+        href: '/calendar',
+      },
+    ],
+  },
+  { date: '2024-11-29', events: [] },
+  { date: '2024-11-30', events: [] },
 ]
 
 const date = new Date()
