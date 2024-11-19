@@ -51,11 +51,20 @@ const days = [
       },
     ],
   },
+  // {
+  //   date: '2024-11-07',
+  //   events: [
+  //     {
+  //       name: '📝 Committee Meeting',
+  //       href: '/calendar',
+  //     },
+  //   ],
+  // },
   {
     date: '2024-11-07',
     events: [
       {
-        name: '📝 Committee Meeting',
+        name: 'Activity',
         href: '/calendar',
       },
     ],
@@ -150,11 +159,20 @@ const days = [
       },
     ],
   },
-  {
+  // {
+  //   date: '2024-11-28',
+  //   events: [
+  //     {
+  //       name: 'Activity',
+  //       href: '/calendar',
+  //     },
+  //   ],
+  // },
+    {
     date: '2024-11-28',
     events: [
       {
-        name: 'Activity',
+        name: '📝 Committee Meeting',
         href: '/calendar',
       },
     ],

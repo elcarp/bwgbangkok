@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['img.freepik.com', 'veterinaire-tour-hassan.com'],
+    domains: [
+      'img.freepik.com',
+      '67kbtiuxase3xqul.public.blob.vercel-storage.com',
+    ],
   },
   webpack: (config) => {
     config.module.rules.push({

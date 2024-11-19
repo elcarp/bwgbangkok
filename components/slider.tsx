@@ -53,24 +53,39 @@ export default function Slider() {
                 alt='bow making session'
               />
             </div>
-            <div className='keen-slider__slide number-slide1'>
+            <div className='keen-slider__slide number-slide'>
               <img
                 className='h-full'
-                src='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/e30fb2c7-4db8-44cd-8528-785d5768970f-eoDKVFGW3tER3jCDIbj3wiiuWAah9e.jpeg'
-                alt='coffee morning'></img>
-            </div>
-            <div className='keen-slider__slide number-slide1'>
-              <img
-                className='h-full'
-                src='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/09bba56b-3e67-4a1f-9d2d-792f7ca89637-vKE0oFe4SJHHP3ehAQOkWu4hsy4265.jpeg'
-                alt='lunch buffet'
+                src='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image2-QElIwhcKgt0c5qre42Lo9vpTW8jAii.jpeg'
+                alt='christmas mahjong'
               />
             </div>
-            <div className='keen-slider__slide number-slide1'>
+            <div className='keen-slider__slide number-slide'>
               <img
                 className='h-full'
-                src='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/6d63646a-94e2-44d8-8d71-89a327f5fd2c-g15pDBL3a0rXJHiK9VHx5QBgEBkVYP.jpeg'
-                alt='origami workshop'
+                src='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image3-5iBmIuoWZJ0G9e5o9ZoaqVpRkCwt9X.jpeg'
+                alt='bowling'
+              />
+            </div>
+            <div className='keen-slider__slide number-slide'>
+              <img
+                className='h-full'
+                src='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image4-bD5anGMUJcMnS5BynPkEOkcME5cxwx.jpeg'
+                alt='christmas and new year celebration'
+              />
+            </div>
+            <div className='keen-slider__slide number-slide'>
+              <img
+                className='h-full'
+                src='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image5-S9bUkC0TUQU2EsAPt5kpk4BttNXEbZ.jpeg'
+                alt='private workshops'
+              />
+            </div>
+            <div className='keen-slider__slide number-slide'>
+              <img
+                className='h-full'
+                src='https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image6-vzw2V4VP9lGBqcHBjnB8AqbEDnUBF9.jpeg'
+                alt='christmas coffee morning'
               />
             </div>
           </div>

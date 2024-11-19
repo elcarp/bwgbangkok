@@ -6,7 +6,6 @@ import { InformationCircleIcon } from '@heroicons/react/16/solid'
 import Calendar from '~components/calendar'
 import Footer from '~components/footer'
 import { Cedarville_Cursive } from 'next/font/google'
-import UnclaimedRaffle from '~public/images/unclaimed-raffle.jpg'
 
 const cedarville = Cedarville_Cursive({
   weight: '400',
@@ -150,13 +149,13 @@ export default function Home() {
                       Come and join the fun!
                     </a>
                   </p>
-                  <p className='mt-5'>
+                  {/* <p className='mt-5'>
                     All proceeds go to THEP Thailand Hilltribe Education
                     Projects and Queen Sirikit Centre for Breast Cancer.{' '}
                     <a href='/welfare' className='font-bold text-red-300'>
                       Learn more.
                     </a>
-                  </p>
+                  </p> */}
                   <figure className='mt-16'>
                     <Image
                       alt='group photo'
@@ -181,55 +180,55 @@ export default function Home() {
         <section className='container mx-auto py-20'>
           <Calendar />
         </section>
-        {/* <section className='py-20'>
-          <div className='container mx-auto lg:flex items-center'>
-            <div className='w-full lg:w-1/2 mx-auto h-screen-3/4 shadow-xl relative rounded-xl'>
+        <section className='py-20'>
+          <div className='container mx-auto lg:flex justify-center items-center'>
+            <div className='w-full lg:w-1/2 mx-auto h-screen-3/4 relative rounded-xl'>
               <Image
-                src={CombinedLunch}
+                src={`https://67kbtiuxase3xqul.public.blob.vercel-storage.com/christmas-lunch-min-8kfcZevy47T2vhOml91E72jn9QzyY8.jpg`}
                 layout='fill'
                 objectFit='contain'
                 alt='Combined Lunch'
               />
             </div>
-            <div className='w-full px-10 lg:w-1/2'>
-              <h2 className='text-center mt-20 lg:mt-0'>Reserve your seat</h2>
-              <p className='mt-10 text-center'>
-                <a
-                  className='font-bold text-red-300'
-                  href='https://docs.google.com/forms/d/e/1FAIpQLSc4t2HH4QdNnm7MLJ57Lc2RM_V9sZSiyG6EOhIFNkyHjYZeTw/viewform'>
-                  Click here{' '}
-                </a>
-                for more information on tickets and tables.
-              </p>
-              <p className='text-center mt-5'>
-                All proceeds from the event will be generously donated to the
-                Thailand Hilltribe Education Projects THEP and the Queen Sirikit
-                Centre for Breast Cancer, supporting vital initiatives that help
-                communities and improve lives.
-              </p>
-              <p className='mt-5 text-center'>
-                We look forward to seeing you this year 🥂
-              </p>
-              <a
-                href='https://docs.google.com/forms/d/e/1FAIpQLSc4t2HH4QdNnm7MLJ57Lc2RM_V9sZSiyG6EOhIFNkyHjYZeTw/viewform'
-                className='px-4 py-2 rounded-lg bg-red-300 animate-bounce font-bold mx-auto block w-[5rem] text-center mt-8'>
-                RSVP
-              </a>
-              <p className='mt-10 text-center text-sm'>
-                Combined Women&apos;s Lunch is sponsored by:
-              </p>
-
+            <div className='w-full lg:w-1/2 mx-auto h-screen-3/4 relative rounded-xl mt-10 lg:mt-0'>
               <Image
-                src={ExpatsBangkok}
-                className='mt-5 mx-auto'
-                width={355}
-                height={122}
-                alt='Expats in Bangkok'
+                src={`https://67kbtiuxase3xqul.public.blob.vercel-storage.com/christmas-menu-min-NrGEcYiyW2UcNC0qWjCzzDeTPOz4pR.jpg`}
+                layout='fill'
+                objectFit='contain'
+                alt='Combined Lunch'
               />
             </div>
           </div>
-        </section> */}
-        <section className='py-20'>
+          <div className='max-w-5xl mx-auto mt-20 px-10'>
+            <h2 className='text-center mt-20 lg:mt-0'>
+              🎄BWG Christmas Lunch🎄
+            </h2>
+            <strong className='mt-5 text-center block'>
+              3rd December - 11.30- 3.00pm <br />
+              Shopping at our vendor stalls from 10.30 am
+            </strong>
+            <p className='mt-7 text-center'>
+              Last year our Christmas lunch at the British Club was a great
+              success and this year we are expecting a high demand for tickets.{' '}
+            </p>
+            <p className='mt-7 text-center'>
+              Enjoy shopping at our vendor stalls, welcome drink, amd a
+              delicious 3 course festive lunch. Entertainment by children from
+              Sister Louise&apos;s Fatima Centre, and our fun Christmas
+              sing-a-long! Guaranteed to get you in the Christmas spirit 🎅
+            </p>
+            <p className='mt-7 text-center'>
+              Lots of raffle prizes to be won!! Don&apos;t miss out - Book now
+              to secure your seat!
+            </p>
+            <a
+              href='https://forms.gle/uCapKYva3zxCqybu7'
+              className='px-4 py-2 rounded-lg bg-red-300 animate-bounce font-bold mx-auto block w-[5rem] text-center mt-8'>
+              RSVP
+            </a>
+          </div>
+        </section>
+        {/* <section className='py-20'>
           <div className='container mx-auto lg:flex items-center'>
             <div className='w-full lg:w-1/2 mx-auto h-screen-3/4 shadow-xl relative rounded-xl'>
               <Image
@@ -255,7 +254,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
         <Slider />
         <Footer />
       </main>
