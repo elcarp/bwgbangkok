@@ -181,7 +181,7 @@ export default function Home() {
           <Calendar />
         </section>
         <section className='py-20'>
-          <div className='container mx-auto lg:flex justify-center items-center'>
+          <div className='max-w-4xl mx-auto lg:flex justify-center items-center rounded-lg shadow-xl'>
             <div className='w-full lg:w-1/2 mx-auto h-screen-3/4 relative rounded-xl'>
               <Image
                 src={`https://67kbtiuxase3xqul.public.blob.vercel-storage.com/christmas-lunch-min-8kfcZevy47T2vhOml91E72jn9QzyY8.jpg`}
@@ -228,33 +228,7 @@ export default function Home() {
             </a>
           </div>
         </section>
-        {/* <section className='py-20'>
-          <div className='container mx-auto lg:flex items-center'>
-            <div className='w-full lg:w-1/2 mx-auto h-screen-3/4 shadow-xl relative rounded-xl'>
-              <Image
-                src={UnclaimedRaffle}
-                layout='fill'
-                objectFit='contain'
-                alt='Unclaimed raffle tickets'
-              />
-            </div>
-            <div className='w-full px-10 lg:w-1/2'>
-              <h2 className='text-center mt-20 lg:mt-0'>
-                UNCLAIMED RAFFLE PRIZES FROM THE CWL 8 OCTOBER 2024
-              </h2>
-              <p className='mt-10 text-center'>
-                Reminder that the winners must have the correct number as well
-                as COLOUR of the ticket (eg. There are 3 winners with the number
-                690, but one is pink, one is orange and one is blue)
-              </p>
-              <p className='text-center mt-5'>
-                For collection please email bwgchair@gmail.com or WhatsApp Petra
-                at 83-991-9041 before the <strong>end of October</strong>. After
-                this time they will be deemed unclaimed.
-              </p>
-            </div>
-          </div>
-        </section> */}
+
         <Slider />
         <Footer />
       </main>
