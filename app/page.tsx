@@ -11,7 +11,6 @@ const cedarville = Cedarville_Cursive({
   weight: '400',
   subsets: ['latin'],
 })
-import 'keen-slider/keen-slider.min.css'
 import React from 'react'
 import Head from 'next/head'
 import { Metadata } from 'next'
