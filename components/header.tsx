@@ -57,7 +57,7 @@ const DesktopNav = ({ navItems }: any) => {
                 className='w-full h-full absolute inset-0 bg-gray-100 dark:bg-neutral-800 rounded-2xl'
               />
             )}
-            <span className='relative z-20'>{navItem.name}</span>
+            <span className='relative z-20 font-semibold'>{navItem.name}</span>
           </Link>
         ))}
       </div>
@@ -110,7 +110,7 @@ const MobileNav = ({ navItems }: any) => {
                   key={`link=${idx}`}
                   href={navItem.link}
                   className='relative text-neutral-600 dark:text-neutral-300'>
-                  <motion.span className='block'>{navItem.name} </motion.span>
+                  <motion.span className='block font-semibold'>{navItem.name} </motion.span>
                 </Link>
               ))}
               <Link
