@@ -16,7 +16,6 @@ export default function Header() {
 }
 
 const Navbar = () => {
-
   const navItems = [
     { name: 'Home', link: '/' },
     { name: 'Activities', link: '/calendar' },
@@ -114,9 +113,11 @@ const MobileNav = ({ navItems }: any) => {
                   <motion.span className='block'>{navItem.name} </motion.span>
                 </Link>
               ))}
-              <button className='px-8 py-2 w-full rounded-lg bg-black dark:bg-white dark:text-black font-medium text-white shadow-[0px_-2px_0px_0px_rgba(255,255,255,0.4)_inset]'>
-                Book a call
-              </button>
+              <Link
+                href='/application-form'
+                className='hidden md:block text-sm font-semibold leading-6 text-white bg-blue-500 px-4 py-2 rounded-lg hover:animate-pulse transition-all ease-in-out'>
+                Join BWG
+              </Link>
             </motion.div>
           )}
         </AnimatePresence>
