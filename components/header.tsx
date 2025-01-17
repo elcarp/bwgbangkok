@@ -110,7 +110,9 @@ const MobileNav = ({ navItems }: any) => {
                   key={`link=${idx}`}
                   href={navItem.link}
                   className='relative text-neutral-600 dark:text-neutral-300'>
-                  <motion.span className='block font-semibold'>{navItem.name} </motion.span>
+                  <motion.span className='block font-semibold'>
+                    {navItem.name}
+                  </motion.span>
                 </Link>
               ))}
               <Link
