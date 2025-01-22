@@ -187,7 +187,7 @@ export default function Calendar() {
         className='bg-red-300 px-4 py-2 block rounded-lg text-white max-w-sm text-center mx-auto mb-10 font-bold'>
         View Calendar
       </a>
-      <div className='shadow ring-1 ring-black ring-opacity-5 lg:flex lg:flex-auto lg:flex-col'>
+      {/* <div className='shadow ring-1 ring-black ring-opacity-5 lg:flex lg:flex-auto lg:flex-col'>
         <div className='grid grid-cols-7 gap-px border-b border-gray-300 bg-gray-200 text-center text-xs font-semibold leading-6 text-gray-700 lg:flex-none'>
           <div className='bg-white py-2'>
             S<span className='sr-only sm:not-sr-only'>un</span>
@@ -318,7 +318,14 @@ export default function Calendar() {
               ))}
           </ol>
         </div>
-      )}
+      )} */}
+      <div className='container mx-auto flex justify-center px-10'>
+        <iframe
+          src='https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FBangkok&showPrint=0&src=YzNjNWFlNGZiYmE3MDQzNTY2Zjk2ODBlYTljMTY0NmJlOTJiYjgxYmY2ZmJjNTBlMTk1NDBhMGNmOGZiODhiNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23795548'
+          style={{ border: 'solid 1px #777' }}
+          width='800'
+          height='600'></iframe>
+      </div>
     </div>
   )
 }
