@@ -12,31 +12,28 @@ export default function Slider() {
     },
     {
       image:
-        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image2-QElIwhcKgt0c5qre42Lo9vpTW8jAii.jpeg',
-      name: 'Christmas Mahjong',
+        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/agm-1SoeS5KTmA7M6I19tcd4wj2wLxy7XY.jpeg',
+      name: 'agm meeting',
     },
     {
       image:
-        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image3-5iBmIuoWZJ0G9e5o9ZoaqVpRkCwt9X.jpeg',
+        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/bowling-uMs8jOKezcDQ9gubATPyBTHbaZG9pC.jpeg',
       name: 'bowling',
     },
     {
       image:
-        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image4-bD5anGMUJcMnS5BynPkEOkcME5cxwx.jpeg',
-
-      name: 'Christmas and New Year Celebration',
+        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/galentines-11ze0gMVyxI9x4CiVx9hH4F8Vli8xJ.png',
+      name: 'galentines',
     },
     {
       image:
-        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image5-S9bUkC0TUQU2EsAPt5kpk4BttNXEbZ.jpeg',
-
-      name: 'private workshops',
+        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/pickleball-aok8Id1CohFS0iR8uSkZ3msfmJBDvo.jpeg',
+      name: 'pickleball',
     },
     {
       image:
-        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image6-vzw2V4VP9lGBqcHBjnB8AqbEDnUBF9.jpeg',
-
-      name: 'Christmas coffee morning',
+        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/walkingtour-mJRVAQOLwuHxCdBpc3eGMQ38d11PHC.jpeg',
+      name: 'walking tour',
     },
   ]
 

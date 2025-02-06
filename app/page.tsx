@@ -179,54 +179,6 @@ export default function Home() {
         <section className='container mx-auto py-20'>
           <Calendar />
         </section>
-        <section className='py-20'>
-          <div className='max-w-4xl mx-auto lg:flex justify-center items-center rounded-lg shadow-xl'>
-            <div className='w-full lg:w-1/2 mx-auto h-screen-3/4 relative rounded-xl'>
-              <Image
-                src={`https://67kbtiuxase3xqul.public.blob.vercel-storage.com/christmas-lunch-min-8kfcZevy47T2vhOml91E72jn9QzyY8.jpg`}
-                layout='fill'
-                objectFit='contain'
-                alt='Combined Lunch'
-              />
-            </div>
-            <div className='w-full lg:w-1/2 mx-auto h-screen-3/4 relative rounded-xl mt-10 lg:mt-0'>
-              <Image
-                src={`https://67kbtiuxase3xqul.public.blob.vercel-storage.com/christmas-menu-min-NrGEcYiyW2UcNC0qWjCzzDeTPOz4pR.jpg`}
-                layout='fill'
-                objectFit='contain'
-                alt='Combined Lunch'
-              />
-            </div>
-          </div>
-          <div className='max-w-5xl mx-auto mt-20 px-10'>
-            <h2 className='text-center mt-20 lg:mt-0'>
-              🎄BWG Christmas Lunch🎄
-            </h2>
-            <strong className='mt-5 text-center block'>
-              3rd December - 11.30- 3.00pm <br />
-              Shopping at our vendor stalls from 10.30 am
-            </strong>
-            <p className='mt-7 text-center'>
-              Last year our Christmas lunch at the British Club was a great
-              success and this year we are expecting a high demand for tickets.{' '}
-            </p>
-            <p className='mt-7 text-center'>
-              Enjoy shopping at our vendor stalls, welcome drink, amd a
-              delicious 3 course festive lunch. Entertainment by children from
-              Sister Louise&apos;s Fatima Centre, and our fun Christmas
-              sing-a-long! Guaranteed to get you in the Christmas spirit 🎅
-            </p>
-            <p className='mt-7 text-center'>
-              Lots of raffle prizes to be won!! Don&apos;t miss out - Book now
-              to secure your seat!
-            </p>
-            <a
-              href='https://forms.gle/uCapKYva3zxCqybu7'
-              className='px-4 py-2 rounded-lg bg-red-300 animate-bounce font-bold mx-auto block w-[5rem] text-center mt-8'>
-              RSVP
-            </a>
-          </div>
-        </section>
 
         <Slider />
         <Footer />
