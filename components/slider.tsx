@@ -7,34 +7,30 @@ export default function Slider() {
   const events = [
     {
       image:
-        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/e3c12357-a09e-4f66-aa60-975b98753f34-my41XAHbjfCjOcQdiJH4DFJQFdTuYh.jpeg',
-      name: 'bow making session',
+        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image0-94jFokpjCfxXle572QL9wFYr1aV0Fd.jpeg',
+      name: 'myterious lunch set',
     },
     {
       image:
-        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/agm-1SoeS5KTmA7M6I19tcd4wj2wLxy7XY.jpeg',
-      name: 'agm meeting',
+        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image1-4CubjkQfvf2IYi3cUdgziLm7gvJs45.jpeg',
+      name: 'upcoming events',
     },
     {
       image:
-        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/bowling-uMs8jOKezcDQ9gubATPyBTHbaZG9pC.jpeg',
-      name: 'bowling',
+        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image2-Lp60EWaCum43VmDkr48qfUpKczB3jk.jpeg',
+      name: 'sunday lunch',
     },
     {
       image:
-        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/galentines-11ze0gMVyxI9x4CiVx9hH4F8Vli8xJ.png',
-      name: 'galentines',
+        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image3-c8BMet2upAPxnJEG55DvUxSQTPX0qk.jpeg',
+      name: 'may coffee morning',
     },
     {
       image:
-        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/pickleball-aok8Id1CohFS0iR8uSkZ3msfmJBDvo.jpeg',
-      name: 'pickleball',
+        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/image4-jpDMR1euY81RBYzbMT7g7v4W1pyYQ1.jpeg',
+      name: 'tai chi class',
     },
-    {
-      image:
-        'https://67kbtiuxase3xqul.public.blob.vercel-storage.com/walkingtour-mJRVAQOLwuHxCdBpc3eGMQ38d11PHC.jpeg',
-      name: 'walking tour',
-    },
+   
   ]
 
   return (
